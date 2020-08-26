@@ -26,5 +26,22 @@ public class ArrayListDemo {
         for(Integer x: studentsIdList){
             System.out.println(x);
         }
+        ArrayList<String> cars = new ArrayList<String>();
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("Mazda");
+        System.out.println(cars);
+        //System.out.println(cars.indexOf(cars));
+        System.out.println(cars.get(0));
+        cars.set(0, "Opel");
+        cars.remove(0);
+        System.out.println(cars.get(0));
+        System.out.println(cars.size());
+        for (String i : cars) {
+            System.out.println(i);
+        }
+        studentsIdList.forEach(i -> System.out.println("id : "+i));
+
     }
 }

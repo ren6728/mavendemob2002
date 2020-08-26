@@ -1,3 +1,5 @@
+package returntypedemo;
+
 public class ATMBoth {
     public boolean readATMCard(ATMCard atmCard){
         // 1. Insert Card inside a ATM Machine
